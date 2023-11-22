@@ -1,5 +1,5 @@
-const button = document.getElementById("change-color-button");
-const colorChangeDiv = document.getElementById("color-change-div");
+const button = document.querySelector("#change-color-button");
+const colorChangeDiv = document.querySelector("#color-change-div");
 
 const getRandomColor = () => {
 	let color = "#";
